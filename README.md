@@ -9,7 +9,7 @@ The following technologies are currently used and will likely need to be underst
 ## Your challenge
 Your challenge, if you so choose to accept, shall be to implement the User Story below.
 
-The estimated time to complete the exercise is between 2 and 4 hours, ***please do not spend more than 8 hours on this exercise***.
+The estimated time to complete the exercise is between 4 and 8 hours, ***please do not spend more than 8 hours on this exercise***.
 
 ### User Story
 ```
@@ -34,7 +34,7 @@ Verify your node version:
 ```bash
 $ node -v
 ```
-> If you have a version less than v10, you will need to install [Node v10](https://www.npmjs.com/get-npm).
+> If you have a version less than v12, you will need to install [Node v12](https://nodejs.org/en/download/).
 
 Install node dependencies:
 ```bash
@@ -49,9 +49,9 @@ $ yarn start
 Navigate to <http://localhost:3001/>
 
 ### Extras
-We kept this exercise smaller and unopinionated in the hopes that you will be motivated to add your own ideas and refactor as you see fit.
+We kept this exercise smaller and unopinionated. We expect you to add at least one extra from below and refactor as you see fit.
 
-If you're pressed on time and can only commit the 2-4 hours for the minimum acceptance criteria, **we won't hold this against you**.  Simply add some comments to your code to express what you would like to add if you had the time.
+If you're pressed on time and cannot add everything you'd like **we won't hold this against you**.  Simply add some comments to your code to express what you would like to add if you had the time.
 
 Some extras you may consider adding:
 - Dockerize the things
@@ -64,15 +64,15 @@ Some extras you may consider adding:
 - Style checking (JSHint, ESLint, Prettier, etc)
 - Persistent store (Redis, MySQL, pSQL, etc)
 - Test framework
+- New React features (hooks, etc)
 - etc..
-
-> **Don't go overboard**.. we suggest picking just one or two things to add that you would like to discuss with the engineers reviewing your code.
 
 ## What we're looking for
 Some of the items our engineering team will be looking for will be:
 - Functional accuracy
 - Code readability
 - Component structure
+- Extras you have added
 
 ## How to submit
 To submit your work, you may email us at <engineering@commercialtribe.com> with either of the following:
