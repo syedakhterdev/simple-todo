@@ -1,30 +1,30 @@
 {
   "name": "simple-todo",
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "scripts": {
     "start": "babel-node ./server/index.js"
   },
   "dependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/plugin-transform-runtime": "^7.7.6",
-    "@babel/preset-env": "^7.7.6",
-    "@babel/preset-react": "^7.7.4",
-    "@babel/runtime": "^7.7.6",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/runtime": "^7.14.0",
+    "babel-loader": "^8.2.2",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "relay": "^0.8.0-1",
-    "webpack": "^4.41.2",
-    "webpack-dev-server": "^3.9.0",
-    "whatwg-fetch": "^3.0.0"
+    "webpack": "^5.36.2",
+    "webpack-dev-server": "^3.11.2",
+    "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
-    "@babel/node": "^7.0.0"
+    "@babel/node": "^7.13.13"
   }
 }
