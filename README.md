@@ -34,7 +34,7 @@ Verify your node version:
 ```bash
 $ node -v
 ```
-> If you have a version less than v12, you will need to install [Node v12](https://nodejs.org/en/download/).
+> If you have a version less than v14, you will need to install [Node v14](https://nodejs.org/en/download/).
 
 Install node dependencies:
 ```bash
